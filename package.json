@@ -120,6 +120,6 @@
     "node": "18.x || 19.x"
   },
   "scripts": {
-    "heroku-postbuild": "make build-ssr && make build-ui"
+    "heroku-postbuild": "make build-ssr && make build-ui && make cleanup"
   }
 }

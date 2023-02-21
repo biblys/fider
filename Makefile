@@ -31,7 +31,8 @@ build-ssr: ## Build SSR script and locales
 	npx lingui compile
 	NODE_ENV=production node esbuild.config.js
 
-
+cleanup:
+	rm -rf ./node_modules
 
 ##@ Testing
 
